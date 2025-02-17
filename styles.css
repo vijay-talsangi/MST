@@ -43,9 +43,10 @@ button:hover {
 .parent{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    margin-left: 22rem;
-    margin-right: 22rem;
+    justify-content: center; /* Center horizontally */
+    /* align-items: center; Center vertically */
+    gap: 1rem; /* Space between svg and infoBox */
+    height: 63vh; /* Full viewport height */
 }
 svg {
     display: block;
