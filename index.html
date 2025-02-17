@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prim's Algorithm Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+<body>
+    <h1>Prim's Algorithm - MST Visualization</h1>
+    
+    <div class="controls">
+        <button id="runButton">Run Prim's Algorithm</button>
+        <button id="resetButton">Reset Graph</button>
+        <button id="addHouseButton">Add House</button>
+    </div>
+    <div class="parent">
+        <svg width="800" height="600"></svg>
+        <div id="infoBox">
+            <h3>Selected Edges & Cost</h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

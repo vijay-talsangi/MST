@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.controls {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#runButton {
+    background-color: #28a745;
+    color: white;
+}
+
+#resetButton {
+    background-color: #dc3545;
+    color: white;
+}
+
+#addHouseButton{
+    background-color: #4c23e0;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 22rem;
+    margin-right: 22rem;
+}
+svg {
+    display: block;
+    margin-right: 1rem;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.edge {
+    stroke: gray;
+    stroke-width: 2;
+}
+
+.mst-edge {
+    stroke: green !important;
+    stroke-width: 3 !important;
+}
+#infoBox{
+    padding: 10px; 
+    border: 2px solid black; 
+    width: 400px;
+    background: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
